@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Titanic Inference Strategies and Model Serving with FastAPI
 
 ## Project overview
@@ -92,4 +93,6 @@ Capture screenshots from your own execution (do not use fabricated screenshots):
 - Swagger UI showing invalid input rejected with HTTP 422
 
 Commit the generated `model.pkl`, `batch_predictions.csv`, `reports/evaluation.txt`, screenshots, and report to your public GitHub repository if your course instructions require those files. Verify your institution's rules before publishing dataset files or binary artifacts. Never commit passwords, tokens, or other secrets.
+=======
+>>>>>>> 00c7770584bb63f13617a752a3a5edff22fef992
 "# ML-Model-Deployment-Strategies-and-Model-Serving-using-FastAPI" 

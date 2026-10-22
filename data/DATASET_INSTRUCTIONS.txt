@@ -1,0 +1,1 @@
+Download train.csv from https://www.kaggle.com/competitions/titanic/data and place it in this folder. The Kaggle competition may require signing in and accepting its rules. The dataset is intentionally not included in this ZIP.

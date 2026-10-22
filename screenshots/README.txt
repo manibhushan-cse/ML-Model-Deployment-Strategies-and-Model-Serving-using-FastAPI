@@ -1,0 +1,1 @@
+Save genuine screenshots here after running the scripts and testing Swagger UI. Required: online output, batch output, streaming output, successful /health, successful /predict, and invalid /predict (422).

@@ -1,0 +1,13 @@
+OBSERVATIONS
+
+1. Online Inference vs Batch Inference
+Online inference predicts one passenger record at a time and is useful when an immediate result is needed. Batch inference predicts a group of records together and is useful for bulk processing.
+
+2. Streaming Inference vs Batch Inference
+Streaming inference handles records continuously as they arrive. In this assignment, a record is processed every one second. Batch inference waits for a group of records and predicts them together.
+
+3. Why FastAPI is used for model serving
+FastAPI makes it easy to expose a trained model through REST endpoints. Pydantic validates incoming fields and types, and Swagger UI at /docs allows interactive API testing.
+
+4. Why the same trained model should be reused
+Reusing model.pkl keeps the preprocessing and classifier consistent across online, batch, streaming, and API inference. Retraining separately could produce different predictions and makes comparisons unfair.
